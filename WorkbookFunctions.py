@@ -655,7 +655,7 @@ class sheet_compiler:
 					  Compile was unable to uniquely identify the sheet to be moved in the following files:
 
 					  {}
-					  """
+					  """.format(unsuccessful)
 			return message
 			
 class workbook_structure:
